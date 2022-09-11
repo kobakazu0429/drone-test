@@ -5,5 +5,5 @@ steps:
   image: node
   commands:
   - npm install
-  - npm build
-  - npm start
+  - npm run build
+  - npm run start
