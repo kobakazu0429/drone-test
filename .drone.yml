@@ -1,0 +1,8 @@
+kind: pipeline
+
+steps:
+- name: start
+  image: node
+  commands:
+  - yarn install
+  - yarn start
